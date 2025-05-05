@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(rgb(230, 226, 23),rgb(16, 206, 212));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#silhueta{
+    height: 250px;
+}
+.central{
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+#bttristeza{
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ #btalegria{
+    background-color: yellow;
+    color: rgb(7, 8, 8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btnojinho{
+    background-color: greenyellow;
+    color: rgb(7, 8, 8);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btraiva{
+    background-color: red;
+    color: rgb(221, 225, 230);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

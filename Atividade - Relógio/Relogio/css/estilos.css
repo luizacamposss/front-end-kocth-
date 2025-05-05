@@ -1,0 +1,46 @@
+@font-face { 
+    font-family: relogio;
+    src: url('/fonts/digital-7.ttf');
+} 
+
+
+body{
+    background: linear-gradient(rgb(236, 124, 20),rgb(218, 47, 25),white, rgb(209, 38, 66), rgb(236, 124, 20));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.central{
+    background-color: rgb(241, 215, 215);
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px rgb(224, 143, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+}
+
+.central div{
+    background: rgb(219, 99, 19);
+    border-radius: 15px;
+    color: white;
+    font-size: 85px;
+    font-family: relogio;
+    height: 150px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.central span{
+    font-size: 85px;
+}
+
